@@ -36,7 +36,7 @@ Using the switch function
 ```{r}
 # Getting an error FOR NO REASON
 
-gw_rate_switch <- funtion(site) {
+gw_rate_switch <- function(site) {
   
   gw_slope_depth <- switch(site, 
                            "mountain" = c(32, 11.2),
